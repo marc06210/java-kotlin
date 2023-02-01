@@ -1,4 +1,4 @@
-package com.afklm.tecc.article;
+package com.afklm.tecc;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

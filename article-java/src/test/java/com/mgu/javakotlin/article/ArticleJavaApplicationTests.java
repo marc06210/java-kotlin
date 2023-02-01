@@ -1,4 +1,4 @@
-package com.afklm.tecc.article;
+package com.mgu.javakotlin.article;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

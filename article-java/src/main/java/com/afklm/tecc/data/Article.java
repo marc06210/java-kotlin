@@ -1,13 +1,12 @@
-package com.afklm.tecc.article.data;
+package com.afklm.tecc.data;
 
 import java.time.LocalDateTime;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-
-import com.afklm.tecc.article.Extensions;
+import com.afklm.tecc.Extensions;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Id;
 
 @Entity
 public class Article {
@@ -21,7 +20,7 @@ public class Article {
     @ManyToOne
     private User author;
     private LocalDateTime addedAt = LocalDateTime.now();
-    
+
     public Article() {
     }
     public Article(String title, String headline, String content, User author) {
@@ -30,7 +29,7 @@ public class Article {
         this.content = content;
         this.author = author;
     }
-    
+
     public Long getId() {
         return id;
     }

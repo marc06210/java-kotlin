@@ -1,4 +1,4 @@
-package com.afklm.tecc.article;
+package com.afklm.tecc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 
-import com.afklm.tecc.article.data.Article;
-import com.afklm.tecc.article.data.ArticleRepository;
-import com.afklm.tecc.article.data.User;
-import com.afklm.tecc.article.data.UserRepository;
+import com.afklm.tecc.data.Article;
+import com.afklm.tecc.data.ArticleRepository;
+import com.afklm.tecc.data.User;
+import com.afklm.tecc.data.UserRepository;
 
 @SpringBootApplication
 public class ArticleJavaApplication {

@@ -1,11 +1,8 @@
 package com.afklm.tecc.kotlin.data
 
-import javax.persistence.GeneratedValue
 import java.time.LocalDateTime
-import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.ManyToOne
 import com.afklm.tecc.kotlin.toSlug
+import jakarta.persistence.*
 
 @Entity
 class Article(
@@ -19,6 +16,7 @@ class Article(
 )
 
 @Entity
+@Table(name="mgu_user")
 class User(
     var login: String,
     var firstname: String,

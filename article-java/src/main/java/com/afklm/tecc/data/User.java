@@ -1,17 +1,19 @@
-package com.afklm.tecc.article.data;
+package com.afklm.tecc.data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "mgu_user")
 public class User {
     private String login;
     private String firstname;
     private String lastname;
     private String description;
-    @Id 
-    @GeneratedValue 
+    @Id
+    @GeneratedValue
     private Long id;
     
     public User() {

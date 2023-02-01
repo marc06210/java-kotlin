@@ -1,4 +1,4 @@
-package com.afklm.tecc.article.data;
+package com.afklm.tecc.data;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
