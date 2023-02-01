@@ -1,9 +1,9 @@
-package com.afklm.tecc.kotlin.web
+package com.mgu.javakotlin.kotlin.web
 
-import com.afklm.tecc.kotlin.data.Article
-import com.afklm.tecc.kotlin.data.ArticleRepository
-import com.afklm.tecc.kotlin.data.User
-import com.afklm.tecc.kotlin.format
+import com.mgu.javakotlin.kotlin.data.Article
+import com.mgu.javakotlin.kotlin.data.ArticleRepository
+import com.mgu.javakotlin.kotlin.data.User
+import com.mgu.javakotlin.kotlin.format
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

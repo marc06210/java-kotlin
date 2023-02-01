@@ -1,9 +1,9 @@
-package com.afklm.tecc.kotlin
+package com.mgu.javakotlin.kotlin
 
-import com.afklm.tecc.kotlin.data.Article
-import com.afklm.tecc.kotlin.data.ArticleRepository
-import com.afklm.tecc.kotlin.data.User
-import com.afklm.tecc.kotlin.data.UserRepository
+import com.mgu.javakotlin.kotlin.data.Article
+import com.mgu.javakotlin.kotlin.data.ArticleRepository
+import com.mgu.javakotlin.kotlin.data.User
+import com.mgu.javakotlin.kotlin.data.UserRepository
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.boot.runApplication

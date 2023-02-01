@@ -1,7 +1,7 @@
-package com.afklm.tecc.kotlin.data
+package com.mgu.javakotlin.kotlin.data
 
 import java.time.LocalDateTime
-import com.afklm.tecc.kotlin.toSlug
+import com.mgu.javakotlin.kotlin.toSlug
 import jakarta.persistence.*
 
 @Entity

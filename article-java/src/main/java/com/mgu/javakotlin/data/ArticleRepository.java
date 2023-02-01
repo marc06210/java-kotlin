@@ -1,4 +1,4 @@
-package com.afklm.tecc.data;
+package com.mgu.javakotlin.data;
 
 import java.util.List;
 import java.util.Optional;

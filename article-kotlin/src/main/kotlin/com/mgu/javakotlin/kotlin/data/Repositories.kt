@@ -1,4 +1,4 @@
-package com.afklm.tecc.kotlin.data
+package com.mgu.javakotlin.kotlin.data
 
 import org.springframework.data.repository.CrudRepository
 

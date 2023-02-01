@@ -1,4 +1,4 @@
-package com.afklm.tecc.kotlin.kotlin;
+package com.mgu.javakotlin.kotlin.kotlin;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

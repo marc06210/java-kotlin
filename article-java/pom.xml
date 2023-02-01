@@ -10,7 +10,7 @@
         <version>3.0.1</version>
     </parent>
 
-    <groupId>com.afklm.tecc</groupId>
+    <groupId>com.mgu.javakotlin</groupId>
     <artifactId>article-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>article-java</name>

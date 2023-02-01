@@ -1,4 +1,4 @@
-package com.afklm.tecc.kotlin.service
+package com.mgu.javakotlin.kotlin.service
 
 class KotlinService
 

@@ -1,9 +1,9 @@
-package com.afklm.tecc.web;
+package com.mgu.javakotlin.web;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.afklm.tecc.Extensions;
+import com.mgu.javakotlin.Extensions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.afklm.tecc.data.Article;
-import com.afklm.tecc.data.ArticleRepository;
-import com.afklm.tecc.data.User;
+import com.mgu.javakotlin.data.Article;
+import com.mgu.javakotlin.data.ArticleRepository;
+import com.mgu.javakotlin.data.User;
 
 @RestController
 public class JavaController {

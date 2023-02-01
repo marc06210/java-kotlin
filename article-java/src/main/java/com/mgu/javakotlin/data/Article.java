@@ -1,8 +1,8 @@
-package com.afklm.tecc.data;
+package com.mgu.javakotlin.data;
 
 import java.time.LocalDateTime;
 
-import com.afklm.tecc.Extensions;
+import com.mgu.javakotlin.Extensions;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.ManyToOne;

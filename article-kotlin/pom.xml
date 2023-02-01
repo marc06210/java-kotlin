@@ -9,7 +9,7 @@
         <version>3.0.1</version>
     </parent>
 
-    <groupId>com.afklm.tecc</groupId>
+    <groupId>com.mgu.javakotlin</groupId>
     <artifactId>article-kotlin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -20,7 +20,7 @@
     <properties>
         <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>8</java.version>
+        <java.version>17</java.version>
         <jdk.version>${java.version}</jdk.version>
         <kotlin.version>1.7.21</kotlin.version>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>

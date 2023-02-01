@@ -1,4 +1,4 @@
-package com.afklm.tecc.kotlin
+package com.mgu.javakotlin.kotlin
 
 import java.time.temporal.ChronoField
 import java.util.Locale

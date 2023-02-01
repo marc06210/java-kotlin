@@ -1,4 +1,4 @@
-package com.afklm.tecc.data;
+package com.mgu.javakotlin.data;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
